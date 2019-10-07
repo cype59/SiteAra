@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+
+    <link type=" text/css " rel=" stylesheet " href="style/reset.css ">
+    <link type=" text/css " rel=" stylesheet " href="style/navbar.css ">
+    <link type=" text/css " rel=" stylesheet " href="style/about.css ">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css">
+    <script src="script/script.js "></script>
+    <script src="script/afficher_cacher.js "></script>
+
+
+    <link rel="icon" type="image/png" href="image/ara_ico.png" />
+
+
+</head>
+
+<body>
+    <div class="load-bar">
+        <div class="bar"></div>
+    </div>
+    <div id="scrollUp">
+        <a href="#top"><img src="image/gotop.png" /></a>
+    </div>
+
+    <header>
+        <div class="popup">
+            <a href="indexFr.html" class=" logo ">Ara</a>
+            <span class="popuptext">
+                                            ARA - AGILE REGRESSION ANALYZER <br>
+                                            <p>Fighting Against Regressions All Together</p>
+                                </span>
+        </div>
+        <button class=" menu-mobile " onclick=" openMenu(this) ">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </button>
+
+        <nav class=" container-menu ">
+
+            <ul class=" menu ">
+                <li class="home"><a href="indexFr.html"> Accueil </a></li>
+                <li class=" download " id="download"><a href="indexFr.html#dl"><i class="fas fa-arrow-alt-circle-down"></i> Téléchargement </a></li>
+                <li class=" documentation" id="documentation"><a href="documentation.html">Documentation </a></li>
+                <li class=" version " id="version"><a href="version.html">Version </a></li>
+                <li class=" demo " id="demo"><a href="#">Demo </a></li>
+            </ul>
+        </nav>
+
+        <div class="release-git">
+            <p class="release"><a href="https://github.com/Decathlon/ara/releases" target="_blank">[VERSION_NUMBER]</a></p>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+
+        <a href="about.html"> <img class=" france-active " src="image/locale_fr.png " /></a>
+        <a href="../en/aboutEn.html"><img class=" uk " src="image/locale_en.png " /></a>
+
+    </header>
+
+    <div class=" docu ">
+        <h1>À propos</h1>
+    </div>
+    <div class="histoire">
+        <div class="container">
+            <h2>Notre histoire</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.
+            </p>
+            <h2>Aider votre équipe à identifier des problèmes professionnels parmi de nombreuses erreurs de régression</h2>
+            <p> Vous avez un grand projet d'entreprise.
+                <br>Vous avez des tests automatisés avec Postman ou Cucumber (avec Selenium, RestAssured, ou autres…) ou même Karate.
+                <br>Vous ne pouvez pas vous permettre d'attendre l'exécution de vos tests pour approuver des demandes de fusion (trop de tâches à exécuter, trop de temps à déployer…)
+                <br>Vos tests de non-régression fonctionnels automatisés sont ensuite exécutés après un délai, à partir de vos principales branches de développement.
+                <br>Cela produit beaucoup d'erreurs, qu'il s'agisse de régressions ou de faux positifs.
+                <br>ARA vous aidera à filtrer les véritables problèmes de votre entreprise et permettra à votre équipe de les résoudre plus rapidement.
+            </p>
+            <h2>Comment ça marche ?</h2>
+            <p>Envoyez vos rapports de tests de non-régression à ARA et il les affichera.
+                <br>ARA est un système expert: votre équipe créera des règles pour agréger toutes les erreurs techniques similaires.
+                <br>En règle générale, vous créez des règles pour corréler tous les symptômes de la cause première du même problème.
+                <br>Vous créez ensuite des défauts dans votre système de suivi des bogues et les affectez aux problèmes d'ARA pour que vous puissiez suivre l'avancement de la résolution.
+                <br>En attendant, lorsque des problèmes apparaissent régulièrement, ARA détecte automatiquement les problèmes que l'équipe a déjà résolus, grâce aux règles qu'ils ont créées.
+                <br>En conséquence, de nouvelles erreurs se dégageront de sorte que vous pourrez les résoudre plus rapidement, et les erreurs récurrentes ne vous dérangeront pas pendant la correction.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul id="foot">
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="mailto:oss@decathlon.com">Contact</a></li>
+            <li><a href="https://github.com/Decathlon/ara/issues/new">Support</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
