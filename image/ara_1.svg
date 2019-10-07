@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   version="1.1"
+   id="svg4333"
+   sodipodi:docname="ara_1.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata4339">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4337" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2041"
+     id="namedview4335"
+     showgrid="false"
+     inkscape:zoom="6.8164062"
+     inkscape:cx="136.58317"
+     inkscape:cy="129.72356"
+     inkscape:window-x="-14"
+     inkscape:window-y="-14"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4333" />
+  <path
+     style="fill:#135b95;stroke:none"
+     d="M 0.88022923,256 C 16.817529,256 31.912329,253.987 46.880229,248.189 84.623129,233.569 113.80523,201.272 124.14523,162 c 4.713,-17.896 2.925,-36.066 6.159,-54 4.834,-26.7976 17.303,-50.7506 36.576,-70 7.635,-7.6254 16.164,-15.3469 26,-20 v -2 c -19.101,-7.95261 -36.8,-15.99865723 -58,-16 -17.085,-0.00109863 -32.671,1.17073 -49.000001,6.66743 -11.3325,3.81467 -22.3513,9.41497 -32,16.48767 C 24.510929,44.6836 5.4898192,76.8449 1.1657232,113 -0.93263077,130.545 0.88022923,149.328 0.88022923,167 Z"
+     id="path4029"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#0000ff; stroke:none;"
+     d="M73 11L74 12L73 11z"
+     id="path4033" />
+  <path
+     style="fill:#1a1a1a;stroke:none"
+     d="m 91.853295,216.53295 c 8.372995,1.937 16.365005,4.995 25.000005,5.83 21.407,2.072 39.753,-3.124 59,-11.83 v -2 c -28.221,-17.702 -47,-47.353 -47,-81 29.572,0 60.092,10.789 82,31.09 6.655,6.168 13.011,12.74 18.575,19.91 3.266,4.21 5.613,9.506 10.425,12 5.556,-13.344 11.424,-25.636 14.195,-40 6.722,-34.844 -1.83,-72.607599 -23.09,-100.999999 -7.93,-10.5911 -17.346,-19.8624 -28.105,-27.5718 -4.74,-3.3968 -9.214,-7.0492 -15,-3.9444 -30.838,16.5491 -51.903,51.849 -57.75,85.516199 -3.502,20.163 -1.776,40.151 -7.819,60 -3.907,12.832 -10.206,24.974 -17.778,36 -3.95901,5.765 -9.713305,10.687 -12.653005,17 z"
+     id="path4035"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#0000ff; stroke:none;"
+     d="M46 28L47 29L46 28z"
+     id="path4037" />
+  <path
+     style="fill:#5f90b7; stroke:none;"
+     d="M68 38L69 39L68 38z"
+     id="path4041" />
+  <path
+     style="fill:#ffffff; stroke:none;"
+     d="M71 38.439C40.2947 43.2743 27.3687 82.1598 48.3009 104.91C57.5113 114.92 71.8265 118.641 85 116.699C125.019 110.801 127.649 51.3818 90 39.7739C83.954 37.9098 77.2469 37.4553 71 38.439z"
+     id="path4045" />
+  <path
+     style="fill:#8eb1cc; stroke:none;"
+     d="M65 39L66 40L65 39z"
+     id="path4049" />
+  <path
+     style="fill:#9dbbd3; stroke:none;"
+     d="M89 39L90 40L89 39z"
+     id="path4051" />
+  <path
+     style="fill:#78a1c2; stroke:none;"
+     d="M62 40L63 41L62 40z"
+     id="path4053" />
+  <path
+     style="fill:#89adca; stroke:none;"
+     d="M92 40L93 41L92 40M60 41L61 42L60 41z"
+     id="path4055" />
+  <path
+     style="fill:#a9c3d8; stroke:none;"
+     d="M94 41L95 42L94 41z"
+     id="path4057" />
+  <path
+     style="fill:#93b4ce; stroke:none;"
+     d="M58 42L59 43L58 42z"
+     id="path4059" />
+  <path
+     style="fill:#acc5da; stroke:none;"
+     d="M96 42L97 43L96 42z"
+     id="path4061" />
+  <path
+     style="fill:#5a8db5; stroke:none;"
+     d="M56 43L57 44L56 43z"
+     id="path4063" />
+  <path
+     style="fill:#89adca; stroke:none;"
+     d="M98 43L99 44L98 43z"
+     id="path4065" />
+  <path
+     style="fill:#bed2e2; stroke:none;"
+     d="M55 44L56 45L55 44z"
+     id="path4067" />
+  <path
+     style="fill:#5085b0; stroke:none;"
+     d="M53 45L54 46L53 45z"
+     id="path4069" />
+  <path
+     style="fill:#7aa2c3; stroke:none;"
+     d="M101 45L102 46L101 45z"
+     id="path4071" />
+  <path
+     style="fill:#8eb1cc; stroke:none;"
+     d="M52 46L53 47L52 46z"
+     id="path4073" />
+  <path
+     style="fill:#b0c8dc; stroke:none;"
+     d="M102 46L103 47L102 46z"
+     id="path4075" />
+  <path
+     style="fill:#aec6da; stroke:none;"
+     d="M51 47L52 48L51 47z"
+     id="path4077" />
+  <path
+     style="fill:#bdd1e1; stroke:none;"
+     d="M50 48L51 49L50 48M48 50L49 51L48 50z"
+     id="path4079" />
+  <path
+     style="fill:#afc8db; stroke:none;"
+     d="M47 51L48 52L47 51z"
+     id="path4081" />
+  <path
+     style="fill:#8fb1cd; stroke:none;"
+     d="M46 52L47 53L46 52z"
+     id="path4083" />
+  <path
+     style="fill:#bbd0e1; stroke:none;"
+     d="M108 52L109 53L108 52z"
+     id="path4085" />
+  <path
+     style="fill:#5085b0; stroke:none;"
+     d="M45 53L46 54L45 53z"
+     id="path4087" />
+  <path
+     style="fill:#82a8c7; stroke:none;"
+     d="M109 53L110 54L109 53z"
+     id="path4089" />
+  <path
+     style="fill:#bed2e2; stroke:none;"
+     d="M44 55L45 56L44 55z"
+     id="path4091" />
+  <path
+     style="fill:#6494ba; stroke:none;"
+     d="M43 56L44 57L43 56z"
+     id="path4093" />
+  <path
+     style="fill:#91b2ce; stroke:none;"
+     d="M111 56L112 57L111 56z"
+     id="path4095" />
+  <path
+     style="fill:#94b4cf; stroke:none;"
+     d="M42 58L43 59L42 58z"
+     id="path4097" />
+  <path
+     style="fill:#c1d4e3; stroke:none;"
+     d="M112 58L113 59L112 58z"
+     id="path4099" />
+  <path
+     style="fill:#8fb1cd; stroke:none;"
+     d="M41 60L42 61L41 60z"
+     id="path4101" />
+  <path
+     style="fill:#bcd1e1; stroke:none;"
+     d="M113 60L114 61L113 60z"
+     id="path4103" />
+  <path
+     style="fill:#7aa2c3; stroke:none;"
+     d="M40 62L41 63L40 62z"
+     id="path4105" />
+  <path
+     style="fill:#a7c2d8; stroke:none;"
+     d="M114 62L115 63L114 62z"
+     id="path4107" />
+  <path
+     style="fill:#aaaaaa; stroke:none;"
+     d="M74 64L75 65L74 64z"
+     id="path4109" />
+  <path
+     style="fill:#9d9d9d; stroke:none;"
+     d="M80 64L81 65L80 64z"
+     id="path4113" />
+  <path
+     style="fill:#6796bb; stroke:none;"
+     d="M115 64L116 65L115 64z"
+     id="path4115" />
+  <path
+     style="fill:#8fb1cd; stroke:none;"
+     d="M39 65L40 66L39 65z"
+     id="path4117" />
+  <path
+     style="fill:#cccccc; stroke:none;"
+     d="M71 65L72 66L71 65z"
+     id="path4119" />
+  <path
+     style="fill:#4e4e4e; stroke:none;"
+     d="M72 65L73 66L72 65z"
+     id="path4121" />
+  <path
+     style="fill:#000000; stroke:none;"
+     d="M73.0039 65.6528C64.3907 68.387 62.4549 80.4658 68.3943 86.7716C71.7818 90.3681 78.4879 91.0043 82.9961 89.2577C90.0979 86.5064 92.2828 76.188 88.1065 70.1049C84.8746 65.3974 78.2808 63.9776 73.0039 65.6528z"
+     id="path4123" />
+  <path
+     style="fill:#3b3b3b; stroke:none;"
+     d="M82 65L83 66L82 65z"
+     id="path4125" />
+  <path
+     style="fill:#b4b4b4; stroke:none;"
+     d="M83 65L84 66L83 65z"
+     id="path4127" />
+  <path
+     style="fill:#bcd1e1; stroke:none;"
+     d="M115 65L116 66L115 65z"
+     id="path4129" />
+  <path
+     style="fill:#5a5a5a; stroke:none;"
+     d="M70 66L71 67L70 66z"
+     id="path4131" />
+  <path
+     style="fill:#3e3e3e; stroke:none;"
+     d="M84 66L85 67L84 66z"
+     id="path4133" />
+  <path
+     style="fill:#0000ff; stroke:none;"
+     d="M14 67L15 68L14 67z"
+     id="path4135" />
+  <path
+     style="fill:#b3b3b3; stroke:none;"
+     d="M86 67L87 68L86 67z"
+     id="path4137" />
+  <path
+     style="fill:#5085b0; stroke:none;"
+     d="M116 67L117 68L116 67z"
+     id="path4139" />
+  <path
+     style="fill:#6090b7; stroke:none;"
+     d="M38 68L39 69L38 68z"
+     id="path4141" />
+  <path
+     style="fill:#b2b2b2; stroke:none;"
+     d="M87 68L88 69L87 68z"
+     id="path4143" />
+  <path
+     style="fill:#8cafcb; stroke:none;"
+     d="M116 68L117 69L116 68z"
+     id="path4145" />
+  <path
+     style="fill:#d2d2d2; stroke:none;"
+     d="M88 69L89 70L88 69z"
+     id="path4149" />
+  <path
+     style="fill:#595959; stroke:none;"
+     d="M66 70L67 71L66 70z"
+     id="path4151" />
+  <path
+     style="fill:#2b2b2b; stroke:none;"
+     d="M88 70L89 71L88 70z"
+     id="path4153" />
+  <path
+     style="fill:#cfcfcf; stroke:none;"
+     d="M65 71L66 72L65 71z"
+     id="path4155" />
+  <path
+     style="fill:#9b9b9b; stroke:none;"
+     d="M89 71L90 72L89 71z"
+     id="path4157" />
+  <path
+     style="fill:#4e4e4e; stroke:none;"
+     d="M65 72L66 73L65 72z"
+     id="path4159" />
+  <path
+     style="fill:#0000ff; stroke:none;"
+     d="M11 73L12 74L11 73z"
+     id="path4163" />
+  <path
+     style="fill:#c5c5c5; stroke:none;"
+     d="M90 73L91 74L90 73z"
+     id="path4167" />
+  <path
+     style="fill:#a9a9a9; stroke:none;"
+     d="M64 74L65 75L64 74z"
+     id="path4169" />
+  <path
+     style="fill:#767676; stroke:none;"
+     d="M90 74L91 75L90 74z"
+     id="path4171" />
+  <path
+     style="fill:#0000ff; stroke:none;"
+     d="M8 80L9 81L8 80z"
+     id="path4181" />
+  <path
+     style="fill:#9b9b9b; stroke:none;"
+     d="M64 80L65 81L64 80z"
+     id="path4183" />
+  <path
+     style="fill:#696969; stroke:none;"
+     d="M90 80L91 81L90 80z"
+     id="path4185" />
+  <path
+     style="fill:#b7b7b7; stroke:none;"
+     d="M90 81L91 82L90 81z"
+     id="path4187" />
+  <path
+     style="fill:#3a3a3a; stroke:none;"
+     d="M65 82L66 83L65 82z"
+     id="path4189" />
+  <path
+     style="fill:#b1b1b1; stroke:none;"
+     d="M65 83L66 84L65 83z"
+     id="path4191" />
+  <path
+     style="fill:#808080; stroke:none;"
+     d="M89 83L90 84L89 83z"
+     id="path4193" />
+  <path
+     style="fill:#414141; stroke:none;"
+     d="M66 84L67 85L66 84z"
+     id="path4197" />
+  <path
+     style="fill:#b3b3b3; stroke:none;"
+     d="M88 85L89 86L88 85z"
+     id="path4199" />
+  <path
+     style="fill:#b9b9b9; stroke:none;"
+     d="M67 86L68 87L67 86z"
+     id="path4201" />
+  <path
+     style="fill:#888888; stroke:none;"
+     d="M87 86L88 87L87 86z"
+     id="path4203" />
+  <path
+     style="fill:#98b8d1; stroke:none;"
+     d="M116 86L117 87L116 86z"
+     id="path4205" />
+  <path
+     style="fill:#afafaf; stroke:none;"
+     d="M68 87L69 88L68 87z"
+     id="path4207" />
+  <path
+     style="fill:#888888; stroke:none;"
+     d="M86 87L87 88L86 87z"
+     id="path4209" />
+  <path
+     style="fill:#5c8eb6; stroke:none;"
+     d="M116 87L117 88L116 87z"
+     id="path4211" />
+  <path
+     style="fill:#182d3f; stroke:none;"
+     d="M134.333 87.6667C134.278 87.7222 134.222 88.7778 134.667 88.3333C134.722 88.2777 134.778 87.2223 134.333 87.6667z"
+     id="path4213" />
+  <path
+     style="fill:#d1d1d1; stroke:none;"
+     d="M69 88L70 89L69 88z"
+     id="path4215" />
+  <path
+     style="fill:#b3b3b3; stroke:none;"
+     d="M85 88L86 89L85 88z"
+     id="path4217" />
+  <path
+     style="fill:#9fbcd4; stroke:none;"
+     d="M39 89L40 90L39 89z"
+     id="path4219" />
+  <path
+     style="fill:#999999; stroke:none;"
+     d="M71 89L72 90L71 89z"
+     id="path4221" />
+  <path
+     style="fill:#7f7f7f; stroke:none;"
+     d="M83 89L84 90L83 89z"
+     id="path4223" />
+  <path
+     style="fill:#c4c4c4; stroke:none;"
+     d="M73 90L74 91L73 90z"
+     id="path4225" />
+  <path
+     style="fill:#757575; stroke:none;"
+     d="M74 90L75 91L74 90z"
+     id="path4227" />
+  <path
+     style="fill:#696969; stroke:none;"
+     d="M80 90L81 91L80 90z"
+     id="path4231" />
+  <path
+     style="fill:#b5b5b5; stroke:none;"
+     d="M81 90L82 91L81 90z"
+     id="path4233" />
+  <path
+     style="fill:#79a2c3; stroke:none;"
+     d="M115 90L116 91L115 90z"
+     id="path4235" />
+  <path
+     style="fill:#173349; stroke:none;"
+     d="M133.333 90.6667C133.278 90.7222 133.222 91.7778 133.667 91.3333C133.722 91.2778 133.778 90.2222 133.333 90.6667z"
+     id="path4237" />
+  <path
+     style="fill:#8aaecb; stroke:none;"
+     d="M40 92L41 93L40 92z"
+     id="path4239" />
+  <path
+     style="fill:#b9cedf; stroke:none;"
+     d="M114 92L115 93L114 92z"
+     id="path4241" />
+  <path
+     style="fill:#598cb5; stroke:none;"
+     d="M114 93L115 94L114 93z"
+     id="path4243" />
+  <path
+     style="fill:#a6c1d7; stroke:none;"
+     d="M41 94L42 95L41 94z"
+     id="path4245" />
+  <path
+     style="fill:#6292b8; stroke:none;"
+     d="M113 95L114 96L113 95z"
+     id="path4247" />
+  <path
+     style="fill:#adc6da; stroke:none;"
+     d="M42 96L43 97L42 96z"
+     id="path4249" />
+  <path
+     style="fill:#5689b3; stroke:none;"
+     d="M112 97L113 98L112 97z"
+     id="path4251" />
+  <path
+     style="fill:#173b58; stroke:none;"
+     d="M131.333 97.6667C131.278 97.7222 131.222 98.7778 131.667 98.3333C131.722 98.2778 131.778 97.2222 131.333 97.6667z"
+     id="path4253" />
+  <path
+     style="fill:#81a8c6; stroke:none;"
+     d="M43 98L44 99L43 98z"
+     id="path4255" />
+  <path
+     style="fill:#aec6da; stroke:none;"
+     d="M111 98L112 99L111 98z"
+     id="path4257" />
+  <path
+     style="fill:#6b98bc; stroke:none;"
+     d="M110 100L111 101L110 100z"
+     id="path4259" />
+  <path
+     style="fill:#77a0c2; stroke:none;"
+     d="M45 101L46 102L45 101z"
+     id="path4261" />
+  <path
+     style="fill:#a4c0d6; stroke:none;"
+     d="M109 101L110 102L109 101z"
+     id="path4263" />
+  <path
+     style="fill:#adc6da; stroke:none;"
+     d="M46 102L47 103L46 102z"
+     id="path4265" />
+  <path
+     style="fill:#173248; stroke:none;"
+     d="M130.333 102.667C130.278 102.722 130.222 103.778 130.667 103.333C130.722 103.278 130.778 102.222 130.333 102.667z"
+     id="path4267" />
+  <path
+     style="fill:#5287b1; stroke:none;"
+     d="M106 105L107 106L106 105z"
+     id="path4269" />
+  <path
+     style="fill:#5689b3; stroke:none;"
+     d="M105 106L106 107L105 106z"
+     id="path4271" />
+  <path
+     style="fill:#163d5b; stroke:none;"
+     d="M129 107L129 110C129.696 108.446 129.696 108.554 129 107z"
+     id="path4273" />
+  <path
+     style="fill:#bdd1e1; stroke:none;"
+     d="M52 108L53 109L52 108z"
+     id="path4275" />
+  <path
+     style="fill:#7aa2c3; stroke:none;"
+     d="M53 109L54 110L53 109z"
+     id="path4277" />
+  <path
+     style="fill:#a9c3d8; stroke:none;"
+     d="M101 109L102 110L101 109z"
+     id="path4279" />
+  <path
+     style="fill:#6a97bc; stroke:none;"
+     d="M100 110L101 111L100 110z"
+     id="path4281" />
+  <path
+     style="fill:#89adca; stroke:none;"
+     d="M56 111L57 112L56 111z"
+     id="path4283" />
+  <path
+     style="fill:#b9cedf; stroke:none;"
+     d="M98 111L99 112L98 111z"
+     id="path4285" />
+  <path
+     style="fill:#c2d5e4; stroke:none;"
+     d="M58 112L59 113L58 112z"
+     id="path4287" />
+  <path
+     style="fill:#5287b1; stroke:none;"
+     d="M97 112L98 113L97 112z"
+     id="path4289" />
+  <path
+     style="fill:#b9cedf; stroke:none;"
+     d="M60 113L61 114L60 113z"
+     id="path4291" />
+  <path
+     style="fill:#6a97bc; stroke:none;"
+     d="M95 113L96 114L95 113z"
+     id="path4293" />
+  <path
+     style="fill:#163e5d; stroke:none;"
+     d="M128 113L128 118C128.83 115.969 128.83 115.03 128 113z"
+     id="path4295" />
+  <path
+     style="fill:#a9c3d8; stroke:none;"
+     d="M62 114L63 115L62 114z"
+     id="path4297" />
+  <path
+     style="fill:#bacfe0; stroke:none;"
+     d="M92 114L93 115L92 114z"
+     id="path4299" />
+  <path
+     style="fill:#5a8db5; stroke:none;"
+     d="M93 114L94 115L93 114z"
+     id="path4301" />
+  <path
+     style="fill:#6997bc; stroke:none;"
+     d="M64 115L65 116L64 115z"
+     id="path4303" />
+  <path
+     style="fill:#bdd1e1; stroke:none;"
+     d="M65 115L66 116L65 115z"
+     id="path4305" />
+  <path
+     style="fill:#7aa2c3; stroke:none;"
+     d="M90 115L91 116L90 115z"
+     id="path4307" />
+  <path
+     style="fill:#5186b1; stroke:none;"
+     d="M67 116L68 117L67 116z"
+     id="path4309" />
+  <path
+     style="fill:#8eb1cc; stroke:none;"
+     d="M68 116L69 117L68 116z"
+     id="path4311" />
+  <path
+     style="fill:#9ab9d2; stroke:none;"
+     d="M86 116L87 117L86 116z"
+     id="path4313" />
+  <path
+     style="fill:#5d8eb6; stroke:none;"
+     d="M87 116L88 117L87 116z"
+     id="path4315" />
+  <path
+     style="fill:#17344c; stroke:none;"
+     d="M127 135L127 141C127.951 138.715 127.951 137.285 127 135z"
+     id="path4321" />
+  <path
+     style="fill:#173854; stroke:none;"
+     d="M126 144L126 148C126.71 146.241 126.71 145.759 126 144z"
+     id="path4323" />
+  <path
+     style="fill:#163f61; stroke:none;"
+     d="M125 151L125 154C125.696 152.446 125.696 152.554 125 151z"
+     id="path4325" />
+  <path
+     style="fill:#163a56; stroke:none;"
+     d="M124.333 156.667C124.278 156.722 124.222 157.778 124.667 157.333C124.722 157.278 124.778 156.222 124.333 156.667z"
+     id="path4327" />
+  <path
+     style="fill:#183146; stroke:none;"
+     d="M122.333 164.667C122.278 164.722 122.222 165.778 122.667 165.333C122.722 165.278 122.778 164.222 122.333 164.667z"
+     id="path4329" />
+  <path
+     style="fill:#0000ff; stroke:none;"
+     d="M81 227L82 228L81 227M60 241L61 242L60 241M54 244L55 245L54 244M47 247L48 248L47 247z"
+     id="path4331" />
+</svg>

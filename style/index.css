@@ -1,0 +1,569 @@
+body {
+    overflow-x: hidden;
+}
+
+
+/*--------- PANNEAU ACCUEIL ----------*/
+
+.accueil {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: block;
+    z-index: 1;
+}
+
+.accueil .carousel-indicators li {
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-inner img {
+    width: 1980px;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+#car {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.accueil .contenuAccueil {
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.accueil .contenuAccueil .logoDeca {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-top: 228px;
+    z-index: 3;
+}
+
+#car .carousel-control-next,
+#car .carousel-control-prev {
+    z-index: 10;
+}
+
+.carousel-caption h3 {
+    padding-bottom: 260px;
+    text-align: center;
+}
+
+.contenuAccueil h3 {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+    #car {
+        visibility: hidden;
+        position: absolute;
+    }
+    .accueil {
+        margin-top: 40px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/escalade.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 10px;
+        height: 70%;
+    }
+    .accueil .contenuAccueil {
+        text-align: center;
+    }
+    .accueil .contenuAccueil .logoDeca {
+        position: relative;
+        width: 20%;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        z-index: 3;
+    }
+    .contenuAccueil h3 {
+        visibility: initial;
+        color: white;
+        margin-bottom: 8%;
+        font-size: 140%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .contenuAccueil h3 {
+        font-size: 100%;
+    }
+}
+
+
+/*--------- BARRE DE NAVIGATION FONCTIONNALITE ----------*/
+
+.ecran #nav-fonc {
+    width: 100%;
+    margin: -2px auto;
+    padding: 5px 0;
+    background: #0082C3;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 1.2em;
+    padding-left: 32px;
+}
+
+.ecran #nav-fonc li {
+    display: inline;
+}
+
+.ecran #nav-fonc a {
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.mobile {
+    visibility: hidden;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1200px) {
+    .ecran #nav-fonc {
+        font-size: 1em;
+    }
+    .ecran #nav-fonc a {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .ecran {
+        visibility: hidden;
+        position: absolute;
+    }
+    .mobile {
+        visibility: initial;
+        position: relative;
+    }
+    .mobile #nav-fonc {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px 0;
+        background: #0082C3;
+        text-align: center;
+        font-family: 'Roboto Condensed'
+    }
+    .mobile #nav-fonc li {
+        display: inline;
+    }
+    .mobile #nav-fonc a {
+        display: inline-block;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+/** DESCRIPTION */
+
+.description {
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+
+.description h2 {
+    color: rgb(5, 62, 90);
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.description h3 {
+    color: #0082C3;
+    padding-top: 30px;
+}
+
+.description p {
+    font-size: 1.2em;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.features {
+    font-family: 'Roboto Condensed';
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.features h3 {
+    color: rgb(0, 80, 121);
+    font-weight: bold;
+}
+
+.features-item {
+    margin-top: 100px;
+    text-align: justify;
+}
+
+.features-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #0082C3;
+}
+
+.features-description {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.features-item img {
+    max-height: 100px;
+    width: auto;
+}
+
+
+/*--------- ESPACE VIDEO ----------*/
+
+.separation-bleu {
+    height: 3px;
+    width: 60%;
+    background-color: #0082C3;
+    z-index: 2;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.fonctionnalite-video h3 {
+    font-weight: bold;
+    color: rgb(0, 80, 121);
+    text-align: center;
+}
+
+.fonctionnalite-video ul {
+    text-align: justify;
+}
+
+.fonctionnalite-video video {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .2);
+    border-radius: 3px;
+}
+
+#video1 {
+    margin-top: 12px;
+}
+
+#video2 {
+    margin-top: -12px;
+}
+
+.espaceVideo1 h3 {
+    margin-bottom: 2%;
+}
+
+.espaceVideo2 h3 {
+    margin-bottom: 5%;
+}
+
+.espaceVideo3 h3 {
+    margin-bottom: 5%;
+}
+
+#text_video3 ul {
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #video1 {
+        margin-top: 54px;
+    }
+    #video2 {
+        margin-top: 36px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #video1 {
+        margin-top: 0px;
+    }
+    #text_video2 ul {
+        margin-top: 392px;
+    }
+    #video2 {
+        margin-top: -700px;
+    }
+    #text_video3 ul {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #video2 {
+        margin-top: -626px;
+    }
+    #text_video2 ul {
+        margin-top: 296px;
+    }
+}
+
+
+/*--------- PANNEAU DE TELECHARGEMENT ----------*/
+
+.panneauDL {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    z-index: 1;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%), url(../image/amazonie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenu-panneauDL {
+    width: 100%;
+    height: 516px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panneau {
+    width: 200px;
+    height: 300px;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 30px;
+    z-index: 2;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 10px;
+}
+
+.imageWindows {
+    background-image: url(../image/windows.png);
+    width: 100px;
+    height: 123px;
+    margin-top: 11px;
+    margin-left: 47px;
+    z-index: 3;
+    background-size: cover;
+}
+
+.imageMac {
+    background-image: url(../image/mac.png);
+    width: 100px;
+    height: 123px;
+    margin-top: 11px;
+    margin-left: 47px;
+    z-index: 3;
+    background-size: cover;
+}
+
+.imageLinux {
+    background-image: url(../image/linux.png);
+    width: 100px;
+    height: 123px;
+    margin-top: 11px;
+    margin-left: 47px;
+    z-index: 3;
+    background-size: cover;
+}
+
+.bouton {
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 20px;
+    font-size: 1.4em;
+    width: 160px;
+    height: 50px;
+    background-color: #0082C3;
+    margin-top: 16px;
+    margin-left: 20px;
+    z-index: 3;
+}
+
+.dlMac .bouton {
+    padding-left: 40px;
+}
+
+.dlLinux .bouton {
+    padding-left: 35px;
+}
+
+.sha {
+    width: 25px;
+    height: 15px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 78px;
+    font-size: 105%;
+    z-index: 3;
+}
+
+.info1 {
+    width: 20px;
+    height: 13px;
+    float: left;
+    margin-top: 33px;
+    margin-left: -21px;
+    font-size: 80%;
+    z-index: 3;
+}
+
+.info2 {
+    width: 20px;
+    height: 13px;
+    float: left;
+    margin-top: 51px;
+    margin-left: -21px;
+    font-size: 80%;
+    z-index: 3;
+}
+
+.bouton:hover {
+    background-color: rgb(0, 80, 121);
+    transition: all 0.5s ease-out;
+}
+
+.dlLinux:hover,
+.dlMac:hover,
+.dlWindows:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 992px) {
+    .panneauDL {
+        height: 767px;
+    }
+    .contenu-panneauDL {
+        display: initial;
+    }
+    .panneau {
+        width: 390px;
+        height: 171px;
+        margin-top: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .dlMac .bouton {
+        margin-top: -123px;
+    }
+    .dlLinux .bouton {
+        margin-top: -115px;
+    }
+    .bouton {
+        width: 145px;
+        margin-top: -112px;
+        margin-left: 194px;
+        padding-left: 16px;
+    }
+    .sha {
+        margin-top: 3px;
+        margin-left: 250px;
+    }
+    .info1 {
+        margin-top: 26px;
+        margin-left: -21px;
+    }
+    .info2 {
+        margin-top: 43px;
+        margin-left: -21px;
+    }
+    .imageWindows {
+        width: 120px;
+        height: 120px;
+        margin-left: 29px;
+        bottom: -4px;
+        position: relative;
+    }
+    .imageLinux {
+        width: 110px;
+        height: 125px;
+        margin-left: 32px;
+        bottom: 1px;
+        position: relative;
+    }
+    .imageMac {
+        width: 110px;
+        height: 137px;
+        margin-left: 31px;
+        bottom: 4px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .panneauDL {
+        height: 676px;
+    }
+    .panneau {
+        width: 320px;
+        height: 138px;
+        margin-top: 65px;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 2;
+    }
+    .imageWindows {
+        width: 100px;
+        height: 100px;
+        margin-left: 23px;
+    }
+    .bouton {
+        width: 130px;
+        height: 38px;
+        margin-top: -93px;
+        margin-left: 163px;
+        font-size: 105%;
+        line-height: 20px;
+        padding-left: 19px;
+    }
+    .dlMac .bouton {
+        margin-top: -110px;
+    }
+    .sha {
+        margin-top: 3px;
+        margin-left: 209px;
+        font-size: 100%;
+    }
+    .info1 {
+        margin-top: 24px;
+        margin-left: -22px;
+        font-size: 75%;
+    }
+    .info2 {
+        margin-top: 40px;
+        margin-left: -22px;
+        font-size: 75%;
+    }
+    .imageLinux {
+        width: 105px;
+        height: 120px;
+        bottom: 15px;
+        margin-left: 24px;
+        position: relative;
+    }
+    .imageMac {
+        width: 94px;
+        height: 116px;
+        margin-left: 26px;
+        bottom: 11px;
+        position: relative;
+    }
+}

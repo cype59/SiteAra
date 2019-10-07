@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+
+
+    <link type=" text/css " rel=" stylesheet " href="style/reset.css ">
+    <link type=" text/css " rel=" stylesheet " href="style/navbar.css ">
+    <link type=" text/css " rel=" stylesheet " href="style/index.css ">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css">
+    <script src="script/script.js "></script>
+    <script src="script/afficher_cacher.js "></script>
+
+
+    <link rel="icon" type="image/png" href="image/ara_ico.png" />
+</head>
+
+<body>
+    <div class="load-bar">
+        <div class="bar"></div>
+    </div>
+    <div id="scrollUp">
+        <a href="#top"><img src="image/gotop.png" /></a>
+    </div>
+    <header>
+        <div class="popup">
+            <a href="indexFr.html" class=" logo ">Ara</a>
+            <span class="popuptext">
+                                        ARA - AGILE REGRESSION ANALYZER <br>
+                                        <p>Fighting Against Regressions All Together</p>
+                            </span>
+        </div>
+        <button class=" menu-mobile " onclick=" openMenu(this) ">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+        </button>
+
+        <nav class=" container-menu ">
+
+            <ul class=" menu ">
+                <li class="home"><a href="indexFr.html"> Accueil </a></li>
+                <li class=" download " id="download"><a href="#dl"><i class="fas fa-arrow-alt-circle-down"></i> Téléchargement </a></li>
+                <li class=" documentation" id="documentation"><a href="documentation.html">Documentation </a></li>
+                <li class=" version " id="version"><a href="version.html">Version </a></li>
+                <li class=" demo " id="demo"><a href="#">Demo </a></li>
+
+            </ul>
+        </nav>
+        <div class="release-git">
+            <p class="release"><a href="https://github.com/Decathlon/ara/releases" target="_blank">[VERSION_NUMBER]</a></p>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+
+        <a href="indexFr.html"> <img class=" france-active " src="image/locale_fr.png " /></a>
+        <a href="../en/indexEn.html"><img class=" uk " src="image/locale_en.png " /></a>
+
+    </header>
+
+    <div class="accueil">
+        <div id="car" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#car" data-slide-to="0" class="active"></li>
+                <li data-target="#car" data-slide-to="1"></li>
+                <li data-target="#car" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/escalade.jpg " alt="escalade">
+                    <div class="carousel-caption">
+                        <h3>Decathlon, à fond la forme ! </h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/marche.jpg" alt="marche">
+                    <div class="carousel-caption">
+                        <h3>Un outil open-source ! </h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/surf.jpg" alt="marche">
+                    <div class="carousel-caption">
+                        <h3>Un gain de temps exceptionnel ! </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#car" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#car" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+        <div class="contenuAccueil">
+            <img class="logoDeca" src="image/decathlon.png" alt="decathlon.png" />
+            <h3>Un outil open-source ! </h3>
+        </div>
+
+    </div>
+
+    <div class="ecran">
+        <ul id="nav-fonc">
+            <li><a href="#espaceVideo2">Aggrégation des échecs <i class="fas fa-angle-down"></i></a></li>
+            <li style="color: white">|</li>
+            <li><a href="#espaceVideo1">Dashboard <i class="fas fa-angle-down"></i></a></li>
+            <li style="color: white">|</li>
+            <li><a href="#espaceVideo3">KPIs de couverture des tests <i class="fas fa-angle-down"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="mobile">
+        <ul id="nav-fonc">
+            <li><a href="#espaceVideo2">Aggrégation <i class="fas fa-angle-down"></i></a></li>
+            <li style="color: white">|</li>
+            <li><a href="#espaceVideo1">Dashboard <i class="fas fa-angle-down"></i></a></li>
+            <li style="color: white">|</li>
+            <li><a href="#espaceVideo3">KPIs <i class="fas fa-angle-down"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <div class="description">
+            <h2>ARA - Agile Regression Analyzer</h2>
+            <h3>Faciliter les analyses de milliers de résultats de tests automatisés, des tests d'intégrations aux scénarios de bout en bout.</h3>
+            <p> ARA est un outil qui prend tout son sens pour les projets qui ont une mâturité de tests importante, avec des tests automatisés qui s'exécutent de façon continue, en Continuous Integration / Continuous Delivery, au sein d'une toolchain Devops.
+                <br><br>On rencontre de plus en plus fréquemment des projets où des centaines, voire des milliers, de tests sont automatisés et très régulièrement exécutés. Avec ce type de dispositif, la difficulté est d'être en mesure d'identifier rapidement
+                quelles sont les nouveautés dans les échecs, ou quels sont les échecs qui n'ont pas encore été analysés. Il peut être aussi intéressant de savoir comment se comporte un test automatisé dans le temps : est-il vraiment robuste ? Nécessite
+                t'il d'être retravaillé pour être plus robuste ?
+                <br><br>ARA va permettre de répondre à tous ces besoins, en centralisant l'intégralité des résultats d'exécutions des centaines de tests que vous avez pris le temps d'automatiser. L'outil sépare les éxécutions en échec qui ont déjà été
+                analysées, de celles qui ne l'ont pas été. Et pour vos futures exécutions ? L'outil reconnaîtra et analysera chaque échec, pour déterminer si la cause racine est déjà connue ou pas...
+                <br><br>Hypé ? Jetez un oeil aux différentes fonctionnalités et vidéos qui suivent...</p>
+        </div>
+        <div class="separation-bleu"></div>
+        <div class="features">
+            <h3>Quelques fonctionnalités</h3>
+            <div class="row">
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon1.svg" alt="">
+                        <div class="features-title">Dashboard des résultats</div>
+                        <div class="features-description">Les résultats des tests d'intégration et des tests fonctionnels sont regroupés au même endroit, avec distinction de la criticité des tests.</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon2.svg" alt="">
+                        <div class="features-title">Pilotage facilité des résultats de tests</div>
+                        <div class="features-description">En un coup d'oeil, voyez dans quelle équipe, dans quelle fonctionnalité, ou chez quel fournisseur se trouvent les régressions.</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon4.svg" alt="">
+                        <div class="features-title">Analyse facilitée des causes racines</div>
+                        <div class="features-description">Transforme une exécution en problème, qui est la cause racine potentielle de centaines d'autres échecs.</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon3.svg" alt="">
+                        <div class="features-title">Centralisation des exécutions</div>
+                        <div class="features-description">Des mois d'historiques d'exécutions. Idéal dans un contexte DevOps (Continuous Testing, Continuous Delivery, Continuous Deployment).</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon5.svg" alt="">
+                        <div class="features-title">Centralisation des informations d'échec</div>
+                        <div class="features-description">Un Printscreen, la vidéo du test en échec, les logs d'erreur et l'historique des résultats d'un test particulier devraient vous aider dans votre analyse.</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon6.svg" alt="">
+                        <div class="features-title">Retour vers le futur ?</div>
+                        <div class="features-description">En définissant des patterns dans vos problèmes, les futures exécutions en échec seront automatiquement reconnues comme étant déjà analysées.</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon2.svg" alt="">
+                        <div class="features-title">KPI de couverture des fonctionnalités par les tests automatisés</div>
+                        <div class="features-description">Profitez d'ARA pour piloter la couverture de vos fonctionnalités par des tests automatisés, et ce par des tests d'intégration ou des tests fonctionnels via les IHM.</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon1.svg" alt="">
+                        <div class="features-title">Toolchain Devops</div>
+                        <div class="features-description">ARA prendra tout son sens dans une toolchain Devops (via Jenkins, avec gestion des résultats de tests d'APIs (Postman, Newman), ou de tests d'IHM (Cucumber, Selenium).</div>
+                    </div>
+                </div>
+
+                <div class=" col-md-4 ">
+                    <div class="features-item">
+                        <img src="image/icon3.svg" alt="">
+                        <div class="features-title">Rendez les problèmes génériques</div>
+                        <div class="features-description">Plus les problèmes sont génériques, plus ils sont cause de tests en échec, et plus ces tests seront de nouveau passants lorsque la cause racine sera corrigée.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="fonctionnalite-video">
+            <div class="separation-bleu" id="espaceVideo1"></div>
+            <div class="espaceVideo1">
+                <h3>Dashboard</h3>
+                <div class="row">
+                    <div class="col-lg-8" id="video1">
+                        <video controls="controls">
+                        <source src="image/ara_dashboard.mp4" type="video/mp4" />
+                        <source src="image/ara_dashboard.webm" type="video/webm" />
+                        Votre navigateur ne prend pas en charge les vidéos
+                </video>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Visualisation des résultats de tests par projet</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Regroupement des résultats de tests automatisés par release</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Historique des exécutions</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Lecture des résultats par niveau de tests (en ligne), et par sévérité</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Lecture des résultats par équipe</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Visualisation des tests passants (en vert), des échecs déjà analysés (en orange) et des échecs à analyser (en rouge)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="separation-bleu" id="espaceVideo2"></div>
+            <div class="espaceVideo2">
+                <h3>Aggrégation des échecs par root cause (problème)</h3>
+                <div class="row">
+                    <div class="col-lg-4" id="text_video2">
+                        <ul>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Accès aux tests en échec d'une équipe</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Regroupement des éléments facilitant l'analyse (screenshot, vidéo, logs, historique propre au test en échec...)</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Page de création du problème / Gestion des critères d'aggrégation</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Déspécialisation de l'échec pour avoir une cause racine pertinente</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Création du problème et lien avec le bugtracker</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Passage du rouge à l'orange : l'échec est passé de "A analyser" à "Analysé"</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8" id="video2">
+                        <video controls="controls">
+                            <source src="image/ara_aggregation.mp4" type="video/mp4" />
+                            <source src="image/ara_aggregation.webm" type="video/webm" />
+                            Votre navigateur ne prend pas en charge les vidéos
+                    </video>
+                    </div>
+                </div>
+            </div>
+            <div class="separation-bleu" id="espaceVideo3"></div>
+            <div class="espaceVideo3">
+                <h3>KPIs de couverture des tests</h3>
+                <div class="row">
+                    <div class="col-lg-8" id="video3">
+                        <video controls="controls">
+                            <source src="image/ara_kpis.mp4" type="video/mp4" />
+                            <source src="image/ara_kpis.webm" type="video/webm" />
+                            Votre navigateur ne prend pas en charge les vidéos
+                    </video>
+                    </div>
+                    <div class="col-lg-4" id="text_video3">
+                        <ul>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Cartographie des fonctionnalités</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Visibilité de ce qui est couvert par un test automatisé ou non</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> Couverture par des tests d'intégration ou des tests IHM</li><br>
+                            <li><span style="color:rgb(5, 62, 90)">•</span> KPIs de couverture globale / par équipe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="panneauDL" id="dl">
+        <div class="contenu-panneauDL">
+            <div class="panneau">
+                <div class="imageWindows"></div>
+                <a href="#" class="dlWindows">
+                    <div class="bouton"><i class="fas fa-download"></i> Windows</div>
+                </a>
+                <a class="sha">SHA</a>
+                <a class="info1">Infos</a>
+                <a class="info2">Infos</a>
+            </div>
+            <div class="panneau">
+                <div class="imageMac"></div>
+                <a href="#" class="dlMac">
+                    <div class="bouton"><i class="fas fa-download"></i> Mac</div>
+                </a>
+                <a class="sha">SHA</a>
+                <a class="info1">Infos</a>
+                <a class="info2">Infos</a>
+            </div>
+            <div class="panneau">
+                <div class="imageLinux"></div>
+                <a href="#" class="dlLinux">
+                    <div class="bouton"><i class="fas fa-download"></i> Linux</div>
+                </a>
+                <a class="sha">SHA</a>
+                <a class="info1">Infos</a>
+                <a class="info2">Infos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" style="margin-top: -30px ">
+        <ul id="foot">
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="mailto:oss@decathlon.com">Contact</a></li>
+            <li><a href="https://github.com/Decathlon/ara/issues/new">Support</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

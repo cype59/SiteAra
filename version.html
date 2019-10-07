@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Version</title>
+
+    <link type=" text/css " rel=" stylesheet " href="style/reset.css ">
+    <link type=" text/css " rel=" stylesheet " href="style/version.css ">
+    <link type=" text/css " rel=" stylesheet " href="style/navbar.css ">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css">
+    <script src=" ../script/script.js "></script>
+    <script src=" ../script/afficher_cacher.js "></script>
+
+
+    <link rel="icon" type="image/png" href="image/ara_ico.png" />
+
+</head>
+
+<body>
+    <div class="load-bar">
+        <div class="bar"></div>
+    </div>
+    <div id="scrollUp">
+        <a href="#top"><img src="image/gotop.png" /></a>
+    </div>
+
+    <header>
+        <div class="popup">
+            <a href="indexFr.html" class=" logo ">Ara</a>
+            <span class="popuptext">
+                                            ARA - AGILE REGRESSION ANALYZER <br>
+                                            <p>Fighting Against Regressions All Together</p>
+                                </span>
+        </div>
+        <button class=" menu-mobile " onclick=" openMenu(this) ">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </button>
+
+        <nav class=" container-menu ">
+
+            <ul class=" menu ">
+                <li class="home"><a href="indexFr.html"> Accueil </a></li>
+                <li class=" download " id="download"><a href="indexFr.html#dl"><i class="fas fa-arrow-alt-circle-down"></i> Téléchargement </a></li>
+                <li class=" documentation" id="documentation"><a href="documentation.html">Documentation </a></li>
+                <li class=" version-active " id="version"><a href="version.html">Version </a></li>
+                <li class=" demo " id="demo"><a href="#">Demo </a></li>
+            </ul>
+        </nav>
+
+        <div class="release-git">
+            <p class="release"><a href="https://github.com/Decathlon/ara/releases" target="_blank">[VERSION_NUMBER]</a></p>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+
+        <a href="version.html"> <img class=" france-active " src="image/locale_fr.png " /></a>
+        <a href="../en/versionEn.html"><img class=" uk " src="image/locale_en.png " /></a>
+
+    </header>
+
+    <div class=" docu ">
+        <h1>Version Ara</h1>
+        <h2>Version actuelle : [VERSION_NUMBER]</h2>
+
+        <div class="form-group">
+            <select class="form-control" name="version" onchange="afficher(this)">
+            <option value="O" selected>Version</option>
+            <option value="1">[VERSION_NUMBER]</option>
+            <option value="2">....</option>
+            <option value="2">....</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="1" style="display:none">
+            <div class=" card ">
+                <div class=" card-body ">
+                    <img class=" card-img-top " src="image/note.png " alt=" note.png ">
+                    <h2 class=" card-title "> Dernière release : </h2>
+                    <br>
+                    <div id="last_release">
+                    </div>
+
+
+                    <script>
+                        var fixes = [RELEASE_NOTE];
+                        var htmlText = '<ul>';
+                        fixes.forEach(function(fixe) {
+                            htmlText += '<li>• ' + fixe + '</li>';
+                        });
+                        htmlText += '</ul>';
+                        document.getElementById('last_release').innerHTML = htmlText;
+                    </script>
+
+                </div>
+            </div>
+        </div>
+        <div id="2" style="display:none">
+            <div class="part-attention">
+                <img class="attention" src="image/attention.png" alt=" attention.png ">
+                <p>Attention la version que vous avez sélectionnée n'est plus mise à jour</p>
+            </div>
+        </div>
+
+        <div class="panneauDL">
+            <div class="contenu-panneauDL">
+                <div class="panneau">
+                    <div class="imageWindows"></div>
+                    <a href="#" class="dlWindows">
+                        <div class="bouton"><i class="fas fa-download"></i> Windows</div>
+                    </a>
+                    <a class="sha">SHA</a>
+                    <a class="info1">Infos</a>
+                    <a class="info2">Infos</a>
+                </div>
+                <div class="panneau">
+                    <div class="imageMac"></div>
+                    <a href="#" class="dlMac">
+                        <div class="bouton"><i class="fas fa-download"></i> Mac</div>
+                    </a>
+                    <a class="sha">SHA</a>
+                    <a class="info1">Infos</a>
+                    <a class="info2">Infos</a>
+                </div>
+                <div class="panneau">
+                    <div class="imageLinux"></div>
+                    <a href="#" class="dlLinux">
+                        <div class="bouton"><i class="fas fa-download"></i> Linux</div>
+                    </a>
+                    <a class="sha">SHA</a>
+                    <a class="info1">Infos</a>
+                    <a class="info2">Infos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul id="foot">
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="mailto:oss@decathlon.com">Contact</a></li>
+            <li><a href="https://github.com/Decathlon/ara/issues/new">Support</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

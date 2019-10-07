@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documentation</title>
+    <link type=" text/css " rel=" stylesheet " href=" style/reset.css ">
+    <link type=" text/css " rel=" stylesheet " href=" style/documentation.css ">
+    <link type=" text/css " rel=" stylesheet " href=" style/navbar.css ">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css">
+    <script src=" script/script.js "></script>
+    <script src=" script/afficher_cacher.js "></script>
+
+    <link rel="icon" type="image/png" href="image/ara_ico.png" />
+
+</head>
+
+<body>
+    <div class="load-bar">
+        <div class="bar"></div>
+    </div>
+    <div id="scrollUp">
+        <a href="#top"><img src="image/gotop.png" /></a>
+    </div>
+
+    <header>
+        <div class="popup">
+            <a href="indexFr.html" class=" logo ">Ara</a>
+            <span class="popuptext">
+                                            ARA - AGILE REGRESSION ANALYZER <br>
+                                            <p>Fighting Against Regressions All Together</p>
+                                </span>
+        </div>
+        <button class=" menu-mobile " onclick=" openMenu(this) ">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </button>
+
+        <nav class=" container-menu ">
+
+            <ul class=" menu ">
+                <li class="home"><a href="indexFr.html"> Accueil </a></li>
+                <li class=" download " id="download"><a href="indexFr.html#dl"><i class="fas fa-arrow-alt-circle-down"></i> Téléchargement </a></li>
+                <li class=" documentation-active" id="documentation"><a href="documentation.html">Documentation </a></li>
+                <li class=" version " id="version"><a href="version.html">Version </a></li>
+                <li class=" demo " id="demo"><a href="#">Demo </a></li>
+            </ul>
+        </nav>
+
+        <div class="release-git">
+            <p class="release"><a href="https://github.com/Decathlon/ara/releases" target="_blank">[VERSION_NUMBER]</a></p>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://github.com/Decathlon/ara" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+
+        <a href="documentation.html"> <img class=" france-active " src=" image/locale_fr.png " /></a>
+        <a href="../en/documentationEn.html"><img class=" uk " src="image/locale_en.png " /></a>
+
+    </header>
+
+    <div class=" docu ">
+        <h1>Documentation Ara</h1>
+        <div class=" search-container ">
+            <form action=" # ">
+                <input name=" rechercher " class=" champ " type=" text " placeholder=" Rechercher avec un mot cl&eacute " />
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class=" row ">
+
+            <div class=" col-lg-4 ">
+                <div class=" card " data-toggle="modal" data-target="#myModal_user">
+                    <a href=" "><img class=" card-img-top " src="image/data.ico " alt=" data.ico "></a>
+                    <div class=" card-body ">
+                        <h2 class=" card-title "> USER DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision " data-toggle="modal" data-target="#myModal_user">Plus de précision</a></div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="myModal_user">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">USER DOC</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-lg-4 ">
+                <div class=" card " data-toggle="modal" data-target="#myModal_ops">
+                    <a href=" "><img class=" card-img-top " src="image/chart.png " alt=" stat.ico "></a>
+                    <div class=" card-body-bleu ">
+                        <h2 class=" card-title "> OPS DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision " data-toggle="modal" data-target="#myModal_ops">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="myModal_ops">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">OPS DOC</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 ">
+                <div class=" card " data-toggle="modal" data-target="#myModal_contributer">
+                    <a href=" "><img class=" card-img-top " src="image/test.ico " alt=" test.ico "></a>
+                    <div class=" card-body ">
+                        <h2 class=" card-title-contributer ">CONTRIBUTER DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision " data-toggle="modal" data-target="#myModal_contributer">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="myModal_contributer">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">CONTRIBUTER DOC</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" col-lg-4 ">
+                <div class=" card ">
+                    <a href=" "><img class=" card-img-top " src="image/chart.png " alt=" stat.ico "></a>
+                    <div class=" card-body-bleu ">
+                        <h2 class=" card-title "> OPS DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision ">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 ">
+                <div class=" card ">
+                    <a href=" "><img class=" card-img-top " src="image/test.ico " alt=" test.ico "></a>
+                    <div class=" card-body ">
+                        <h2 class=" card-title-contributer ">CONTRIBUTER DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision ">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 ">
+                <div class=" card ">
+                    <a href=" "><img class=" card-img-top " src="image/data.ico " alt=" data.ico "></a>
+                    <div class=" card-body-bleu ">
+                        <h2 class=" card-title "> USER DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision ">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 ">
+                <div class=" card ">
+                    <a href=" "><img class=" card-img-top " src="image/data.ico " alt=" data.ico "></a>
+                    <div class=" card-body ">
+                        <h2 class=" card-title "> USER DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision ">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 ">
+                <div class=" card ">
+                    <a href=" "><img class=" card-img-top " src="image/chart.png " alt=" stat.ico "></a>
+                    <div class=" card-body-bleu ">
+                        <h2 class=" card-title "> OPS DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision ">Plus de précision</a></div>
+                </div>
+            </div>
+
+            <div class=" col-lg-4 ">
+                <div class=" card ">
+                    <a href=" "><img class=" card-img-top " src="image/test.ico " alt=" test.ico "></a>
+                    <div class=" card-body ">
+                        <h2 class=" card-title-contributer ">CONTRIBUTER DOC</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class=" card-footer "><a href=" " class=" precision ">Plus de précision</a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <ul id="foot">
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="mailto:oss@decathlon.com">Contact</a></li>
+            <li><a href="https://github.com/Decathlon/ara/issues/new">Support</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
